@@ -31,4 +31,3 @@ return new class extends Migration
         Schema::dropIfExists('invoices');
     }
 };
-git remote add origin https://github.com/Lowriider/test-web-id.git
