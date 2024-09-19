@@ -41,3 +41,16 @@ Make sure you have the following installed on your machine:
 6. **Generate a new application key:**
 
     ```php artisan key:generate```
+   
+## Run test
+
+ ```php artisan test```
+ 
+## Run project
+
+ ```php artisan serve```
+
+ ```npm run dev```
+
+
+
