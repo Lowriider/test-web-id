@@ -13,7 +13,8 @@ Make sure you have the following installed on your machine:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Lowriider/test-web-id/
+   
    cd your-repo
 
 
@@ -21,22 +22,22 @@ Make sure you have the following installed on your machine:
 
 2. **Use Composer to install PHP dependencies:**
 
-```composer install```
+    ```composer install```
 
 3. **Use npm to install JavaScript dependencies:**
 
+    ```npm install```
+   
+5. Set Up Environment File
 
-```npm install```
-4. Set Up Environment File
+    ```cp .env.example .env```
 
-```cp .env.example .env```
-
-Copy the example environment file to create your own .env file:**
-
-Update the .env file with your database and other environment configurations.
+    Copy the example environment file to create your own .env file:**
+    
+    Update the .env file with your database and other environment configurations.
 
 ## Generate Application Key
 
 6. **Generate a new application key:**
 
-```php artisan key:generate```
+    ```php artisan key:generate```
