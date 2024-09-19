@@ -52,5 +52,14 @@ Make sure you have the following installed on your machine:
 
  ```npm run dev```
 
+## test live project  
 
+**route to the index**
+
+
+```localhost/api/invoices/1234```
+
+**route show invoice**
+
+```localhost/api/invoices/1234/1```
 
